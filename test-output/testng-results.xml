@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on the sign in  Button [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> id: user[email]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> name: user[password]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on the sign in Button [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on the sign in  Button [[ChromeDriver: chrome on WINDOWS (412c98bc2af3022eb0ed142f28e85f4e)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="12964" started-at="2022-12-12T13:29:41 GMT" finished-at="2022-12-12T13:29:54 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="ProductPageTest.verifyThatSixProductsAreDisplayedOnPage()[pri:0, instance:ultimateqa.testsuite.ProductPageTest@6eceb130]" name="verifyThatSixProductsAreDisplayedOnPage" class="ultimateqa.testsuite.ProductPageTest"/>
+        <method signature="SignInPageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:ultimateqa.testsuite.SignInPageTest@1f021e6c]" name="userShouldNavigateToLoginPageSuccessfully" class="ultimateqa.testsuite.SignInPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ProductPageTest.verifyThatSixProductsAreDisplayedOnPage()[pri:0, instance:ultimateqa.testsuite.ProductPageTest@6eceb130]" name="verifyThatSixProductsAreDisplayedOnPage" class="ultimateqa.testsuite.ProductPageTest"/>
+        <method signature="SignInPageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:ultimateqa.testsuite.SignInPageTest@1f021e6c]" name="userShouldNavigateToLoginPageSuccessfully" class="ultimateqa.testsuite.SignInPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity Test" duration-ms="12964" started-at="2022-12-12T13:29:41 GMT" finished-at="2022-12-12T13:29:54 GMT">
+      <class name="ultimateqa.testsuite.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ultimateqa.testsuite.SignInPageTest@1f021e6c]" name="setUp" is-config="true" duration-ms="3406" started-at="2022-12-12T13:29:49 GMT" finished-at="2022-12-12T13:29:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:ultimateqa.testsuite.SignInPageTest@1f021e6c]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-12T13:29:52 GMT" finished-at="2022-12-12T13:29:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:ultimateqa.testsuite.SignInPageTest@1f021e6c]" name="userShouldNavigateToLoginPageSuccessfully" duration-ms="992" started-at="2022-12-12T13:29:52 GMT" finished-at="2022-12-12T13:29:53 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the sign in  Button [[ChromeDriver: chrome on WINDOWS (412c98bc2af3022eb0ed142f28e85f4e)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ultimateqa.testsuite.SignInPageTest@1f021e6c]" name="tearDown" is-config="true" duration-ms="626" started-at="2022-12-12T13:29:53 GMT" finished-at="2022-12-12T13:29:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ultimateqa.testsuite.SignInPageTest -->
+      <class name="ultimateqa.testsuite.ProductPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ultimateqa.testsuite.ProductPageTest@6eceb130]" name="setUp" is-config="true" duration-ms="5853" started-at="2022-12-12T13:29:41 GMT" finished-at="2022-12-12T13:29:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:ultimateqa.testsuite.ProductPageTest@6eceb130]" name="inIt" is-config="true" duration-ms="20" started-at="2022-12-12T13:29:47 GMT" finished-at="2022-12-12T13:29:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatSixProductsAreDisplayedOnPage()[pri:0, instance:ultimateqa.testsuite.ProductPageTest@6eceb130]" name="verifyThatSixProductsAreDisplayedOnPage" duration-ms="1214" started-at="2022-12-12T13:29:47 GMT" finished-at="2022-12-12T13:29:48 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the sign in  Button [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> id: user[email]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> name: user[password]]]]>
+            </line>
+            <line>
+              <![CDATA[Click on the sign in Button [[ChromeDriver: chrome on WINDOWS (578a9f3b55d1c04c49147a6dbe4f0ddc)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatSixProductsAreDisplayedOnPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ultimateqa.testsuite.ProductPageTest@6eceb130]" name="tearDown" is-config="true" duration-ms="636" started-at="2022-12-12T13:29:48 GMT" finished-at="2022-12-12T13:29:49 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ultimateqa.testsuite.ProductPageTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
